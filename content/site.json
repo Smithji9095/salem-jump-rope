@@ -80,7 +80,7 @@
       "image": "",
       "name": "Speed Jump Rope",
       "desc": "Lightweight speed rope used by our coaching staff and athletes.",
-      "price": "$18.00",
+      "price": "TBD",
       "paymentUrl": ""
     },
     {
@@ -88,7 +88,7 @@
       "image": "",
       "name": "Sticker Pack",
       "desc": "Set of 5 Salem Jump Rope vinyl stickers. Perfect for water bottles and gear.",
-      "price": "$8.00",
+      "price": "TBD",
       "paymentUrl": ""
     },
     {
@@ -96,7 +96,7 @@
       "image": "",
       "name": "Clinic Shirt",
       "desc": "Exclusive shirt given to clinic participants. Also available separately.",
-      "price": "$22.00",
+      "price": "TBD",
       "paymentUrl": ""
     },
     {
@@ -104,7 +104,7 @@
       "image": "",
       "name": "Water Bottle",
       "desc": "Insulated stainless steel bottle with Salem Jump Rope branding. 32oz.",
-      "price": "$28.00",
+      "price": "TBD",
       "paymentUrl": ""
     }
   ],
