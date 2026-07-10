@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: REPLACE_WITH_GITHUB_OWNER/REPLACE_WITH_REPO_NAME
+  repo: smithji9095/salem-jump-rope
   branch: main
 
 local_backend: true
