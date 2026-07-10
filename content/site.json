@@ -1,39 +1,113 @@
 {
-  "siteSettings": {
-    "siteTitle": "Salem Jump Rope | Youth Jump Rope Team",
-    "metaDescription": "Salem Jump Rope is a Christian faith based youth performance jump rope team building character, leadership, faith, fitness, and community impact.",
-    "ogDescription": "Youth jump rope team offering clinics, tryouts, performances, and fitness programs in Salem.",
-    "heroEyebrow": "Jump. Lead. Impact.",
-    "heroTitleLine1": "JUMP WITH",
-    "heroTitleAccent": "PURPOSE.",
-    "heroSubtitle": "Building character, strengthening faith, and developing leaders through the sport of jump rope.",
-    "missionText": "We exist to build character, strengthen faith, and develop leaders through the sport of jump rope, empowering athletes to jump with purpose, lead with integrity, impact their communities, and honor God in all they do.",
-    "homeStats": [
-      { "number": "3 to 12", "label": "Grade Range" },
-      { "number": "2x", "label": "Weekly Practices" },
-      { "number": "A.C.E.", "label": "Highest Honor" },
-      { "number": "2026", "label": "Salem Launch" }
-    ],
-    "springClinicTitle": "Spring Clinic",
-    "springClinicDate": "Dates to be announced by the coaching staff",
-    "springClinicTimeLocation": "Time and location to be announced",
-    "springClinicDescription": "Seasonal skill-building clinic focused on fundamentals, confidence, teamwork, and performance preparation.",
-    "fallClinicTitle": "Mini Fall Clinic 2026",
-    "fallClinicDate": "Monday, August 31 & Tuesday, September 1",
-    "fallClinicTimeLocation": "3:30 PM to 4:45 PM | River Oaks Community Church",
-    "fallClinicDescription": "Cost: $5. Open to any student in 3rd through 12th grade who is interested in trying out for the team or simply getting better at jump rope.",
-    "tryoutDate": "Thursday, September 10, 2026",
-    "tryoutTimeLocation": "3:30 PM to 4:45 PM | College Park Baptist Church",
-    "contactEmail": "Email to be added after domain is secured",
-    "contactPhone": "Phone number to be added",
-    "contactServiceArea": "Salem and surrounding communities",
-    "contactResponseTime": "We typically respond within 48 hours",
-    "facebookUrl": "",
-    "instagramUrl": "",
-    "youtubeUrl": "",
-    "storeNoticeTitle": "Online Store To Be Added",
-    "storeNoticeText": "Online ordering and payments will be handled through Square or another approved payment provider. Sign up below to be notified when the store goes live."
-  },
+  "timeline": [
+    {
+      "year": "2008",
+      "title": "Coach Tiffany Begins Teaching",
+      "desc": "Coach Carroll graduates from East Carolina University and begins teaching elementary physical education, where she is introduced to school jump rope teams and the larger world of the sport."
+    },
+    {
+      "year": "2008 to 2017",
+      "title": "School Teams and Coaching Roots",
+      "desc": "While teaching in public elementary school, Coach Tiffany coaches jump rope teams for 4th and 5th graders and builds the foundation for her coaching philosophy."
+    },
+    {
+      "year": "2017 to 2023",
+      "title": "Driveway Practice and Community Clubs",
+      "desc": "As a stay at home mom, Coach Tiffany keeps jumping with her own children and helps lead small community jump rope clubs."
+    },
+    {
+      "year": "2024",
+      "title": "COA SKIP ITS Formed",
+      "desc": "Coach Tiffany begins teaching PE at Cathedral Oak Academy. COA SKIP ITS forms as a school performance team for students in grades 3 through 10, and Coach Olivia joins as assistant coach."
+    },
+    {
+      "year": "2025",
+      "title": "Mentorship Program Developed",
+      "desc": "Coach David Ashey joins the coaching family and the mentorship program is developed to help older athletes invest in younger teammates."
+    },
+    {
+      "year": "2026",
+      "title": "Salem Jump Rope Established",
+      "desc": "Coach David Carroll joins as the conditioning coach to assist Salem Jump Rope as a performance based jump rope team built around faith, skill, character, and leadership."
+    }
+  ],
+  "mentorValues": [
+    {
+      "icon": "👑",
+      "title": "Leadership",
+      "desc": "Mentors model responsibility, service, coachability, and Christlike leadership at practices and team events."
+    },
+    {
+      "icon": "✅",
+      "title": "Accountability",
+      "desc": "Mentors are trained by coaches and held to high standards of conduct, consistency, and encouragement."
+    },
+    {
+      "icon": "💪",
+      "title": "Confidence",
+      "desc": "Younger athletes receive one on one skill support and encouragement so they can attempt hard things with courage."
+    },
+    {
+      "icon": "🌱",
+      "title": "Service",
+      "desc": "Mentorship teaches older athletes to invest in someone else's growth and continue the cycle of encouragement."
+    },
+    {
+      "icon": "🤝",
+      "title": "Teamwork",
+      "desc": "Every athlete is reminded that the team is stronger when everyone feels valued, supported, and included."
+    }
+  ],
+  "products": [
+    {
+      "icon": "👕",
+      "image": "Images/merch/salem-jump-rope-shirt-logo.jpg",
+      "name": "Team Shirt",
+      "desc": "Official Salem Jump Rope performance shirt. Black and gold.",
+      "price": "$25.00",
+      "paymentUrl": ""
+    },
+    {
+      "icon": "🧥",
+      "image": "",
+      "name": "Team Hoodie",
+      "desc": "Heavyweight zip hoodie with embroidered Salem Jump Rope logo.",
+      "price": "$55.00",
+      "paymentUrl": ""
+    },
+    {
+      "icon": "🪢",
+      "image": "",
+      "name": "Speed Jump Rope",
+      "desc": "Lightweight speed rope used by our coaching staff and athletes.",
+      "price": "$18.00",
+      "paymentUrl": ""
+    },
+    {
+      "icon": "🗂️",
+      "image": "",
+      "name": "Sticker Pack",
+      "desc": "Set of 5 Salem Jump Rope vinyl stickers. Perfect for water bottles and gear.",
+      "price": "$8.00",
+      "paymentUrl": ""
+    },
+    {
+      "icon": "👕",
+      "image": "",
+      "name": "Clinic Shirt",
+      "desc": "Exclusive shirt given to clinic participants. Also available separately.",
+      "price": "$22.00",
+      "paymentUrl": ""
+    },
+    {
+      "icon": "💧",
+      "image": "",
+      "name": "Water Bottle",
+      "desc": "Insulated stainless steel bottle with Salem Jump Rope branding. 32oz.",
+      "price": "$28.00",
+      "paymentUrl": ""
+    }
+  ],
   "coaches": [
     {
       "name": "Coach Tiffany Carroll",
@@ -76,45 +150,6 @@
       "focus": "\"Double Dutch, performance, teaching, and sharing the love of jump rope with others.\""
     }
   ],
-  "captains": [],
-  "aces": [
-    { "name": "Future ACE Athlete", "year": "To Be Added", "category": "Achieving Christlike Excellence" },
-    { "name": "Future ACE Athlete", "year": "To Be Added", "category": "Skill Mastery" },
-    { "name": "Future ACE Athlete", "year": "To Be Added", "category": "Mentorship & Service" },
-    { "name": "Future ACE Athlete", "year": "To Be Added", "category": "Leadership & Character" }
-  ],
-  "timeline": [
-    {
-      "year": "2008",
-      "title": "Coach Tiffany Begins Teaching",
-      "desc": "Coach Carroll graduates from East Carolina University and begins teaching elementary physical education, where she is introduced to school jump rope teams and the larger world of the sport."
-    },
-    {
-      "year": "2008 to 2017",
-      "title": "School Teams and Coaching Roots",
-      "desc": "While teaching in public elementary school, Coach Tiffany coaches jump rope teams for 4th and 5th graders and builds the foundation for her coaching philosophy."
-    },
-    {
-      "year": "2017 to 2023",
-      "title": "Driveway Practice and Community Clubs",
-      "desc": "As a stay at home mom, Coach Tiffany keeps jumping with her own children and helps lead small community jump rope clubs."
-    },
-    {
-      "year": "2024",
-      "title": "COA SKIP ITS Formed",
-      "desc": "Coach Tiffany begins teaching PE at Cathedral Oak Academy. COA SKIP ITS forms as a school performance team for students in grades 3 through 10, and Coach Olivia joins as assistant coach."
-    },
-    {
-      "year": "2025",
-      "title": "Mentorship Program Developed",
-      "desc": "Coach David Ashey joins the coaching family and the mentorship program is developed to help older athletes invest in younger teammates."
-    },
-    {
-      "year": "2026",
-      "title": "Salem Jump Rope Established",
-      "desc": "Coach David Carroll joins as the conditioning coach to assist Salem Jump Rope as a performance based jump rope team built around faith, skill, character, and leadership."
-    }
-  ],
   "sponsorLevels": [
     {
       "level": "Ace Sponsor",
@@ -138,7 +173,13 @@
       "tagline": "Strength through leadership",
       "cls": "team",
       "icon": "🏆",
-      "perks": ["Logo on website", "Social media recognition", "Logo on team shirts", "Recognition at performances", "Team photo"]
+      "perks": [
+        "Logo on website",
+        "Social media recognition",
+        "Logo on team shirts",
+        "Recognition at performances",
+        "Team photo"
+      ]
     },
     {
       "level": "Queen Sponsor",
@@ -146,7 +187,12 @@
       "tagline": "Serving with excellence",
       "cls": "clinic",
       "icon": "👑",
-      "perks": ["Name/logo on website", "One social media sponsor spotlight", "Recognition at performances", "Team photo"]
+      "perks": [
+        "Name/logo on website",
+        "One social media sponsor spotlight",
+        "Recognition at performances",
+        "Team photo"
+      ]
     },
     {
       "level": "Jack Sponsor",
@@ -154,7 +200,10 @@
       "tagline": "Growing future leaders",
       "cls": "community",
       "icon": "⭐",
-      "perks": ["Name on website", "One social media recognition"]
+      "perks": [
+        "Name on website",
+        "One social media recognition"
+      ]
     },
     {
       "level": "Friend Sponsor",
@@ -162,7 +211,107 @@
       "tagline": "Every gift helps",
       "cls": "community",
       "icon": "🤝",
-      "perks": ["Name included as friend on website", "Signed thank you card"]
+      "perks": [
+        "Name included as friend on website",
+        "Signed thank you card"
+      ]
+    }
+  ],
+  "siteSettings": {
+    "homeStats": [
+      {
+        "number": "3 to 12",
+        "label": "Grade Range"
+      },
+      {
+        "number": "2x",
+        "label": "Weekly Practices"
+      },
+      {
+        "number": "A.C.E.",
+        "label": "Highest Honor"
+      },
+      {
+        "number": "2026",
+        "label": "Salem Launch"
+      }
+    ],
+    "tryoutDate": "Thursday, September 10, 2026",
+    "contactServiceArea": "Salem and surrounding communities",
+    "springClinicTitle": "Spring Clinic",
+    "springClinicDate": "Dates to be announced by the coaching staff",
+    "ogDescription": "Youth jump rope team offering clinics, tryouts, performances, and fitness programs in Salem.",
+    "fallClinicTimeLocation": "3:30 PM to 4:45 PM | River Oaks Community Church",
+    "storeNoticeText": "Online ordering and payments will be handled through Square or another approved payment provider. Sign up below to be notified when the store goes live.",
+    "springClinicDescription": "Seasonal skill-building clinic focused on fundamentals, confidence, teamwork, and performance preparation.",
+    "heroTitleAccent": "PURPOSE.",
+    "facebookUrl": "",
+    "youtubeUrl": "",
+    "contactPhone": "Phone number to be added",
+    "contactResponseTime": "We typically respond within 48 hours",
+    "heroEyebrow": "Jump. Lead. Impact!",
+    "fallClinicDate": "Monday, August 31 & Tuesday, September 1",
+    "siteTitle": "Salem Jump Rope | Youth Jump Rope Team",
+    "heroSubtitle": "Building character, strengthening faith, and developing leaders through the sport of jump rope.",
+    "tryoutTimeLocation": "3:30 PM to 4:45 PM | College Park Baptist Church",
+    "fallClinicTitle": "Mini Fall Clinic 2026",
+    "metaDescription": "Salem Jump Rope is a Christian faith based youth performance jump rope team building character, leadership, faith, fitness, and community impact.",
+    "springClinicTimeLocation": "Time and location to be announced",
+    "missionText": "We exist to build character, strengthen faith, and develop leaders through the sport of jump rope, empowering athletes to jump with purpose, lead with integrity, impact their communities, and honor God in all they do.",
+    "fallClinicDescription": "Cost: $5. Open to any student in 3rd through 12th grade who is interested in trying out for the team or simply getting better at jump rope.",
+    "contactEmail": "Email to be added after domain is secured",
+    "instagramUrl": "",
+    "storeNoticeTitle": "Online Store To Be Added",
+    "heroTitleLine1": "JUMP WITH"
+  },
+  "captains": [],
+  "programs": [
+    {
+      "icon": "📋",
+      "name": "Beginner Skill Checklist",
+      "desc": "A printable checklist of all beginner skills with space to track progress."
+    },
+    {
+      "icon": "📅",
+      "name": "Clinic Practice Plan",
+      "desc": "4-day clinic schedule with coaching notes and drill breakdowns."
+    },
+    {
+      "icon": "💪",
+      "name": "Team Conditioning Plan",
+      "desc": "Seasonal conditioning program used by the Salem Jump Rope team."
+    },
+    {
+      "icon": "🎯",
+      "name": "Tryout Prep List",
+      "desc": "A step by step guide for athletes preparing for Salem Jump Rope tryouts."
+    },
+    {
+      "icon": "🪢",
+      "name": "Double Dutch Basics",
+      "desc": "Visual guide to Double Dutch turning, entry, and basic combinations."
+    }
+  ],
+  "aces": [
+    {
+      "name": "Future ACE Athlete",
+      "year": "To Be Added",
+      "category": "Achieving Christlike Excellence"
+    },
+    {
+      "name": "Future ACE Athlete",
+      "year": "To Be Added",
+      "category": "Skill Mastery"
+    },
+    {
+      "name": "Future ACE Athlete",
+      "year": "To Be Added",
+      "category": "Mentorship & Service"
+    },
+    {
+      "name": "Future ACE Athlete",
+      "year": "To Be Added",
+      "category": "Leadership & Character"
     }
   ],
   "currentSponsors": [
@@ -174,12 +323,77 @@
       "website": ""
     }
   ],
-  "mentorValues": [
-    { "icon": "👑", "title": "Leadership", "desc": "Mentors model responsibility, service, coachability, and Christlike leadership at practices and team events." },
-    { "icon": "✅", "title": "Accountability", "desc": "Mentors are trained by coaches and held to high standards of conduct, consistency, and encouragement." },
-    { "icon": "💪", "title": "Confidence", "desc": "Younger athletes receive one on one skill support and encouragement so they can attempt hard things with courage." },
-    { "icon": "🌱", "title": "Service", "desc": "Mentorship teaches older athletes to invest in someone else's growth and continue the cycle of encouragement." },
-    { "icon": "🤝", "title": "Teamwork", "desc": "Every athlete is reminded that the team is stronger when everyone feels valued, supported, and included." }
+  "chatbotTopics": [
+    {
+      "label": "Clinic Info",
+      "response": "The Mini Fall Clinic is scheduled for Monday, August 31 and Tuesday, September 1, 2026 from 3:30 PM to 4:45 PM at River Oaks Community Church. It is open to students in 3rd through 12th grade who are interested in tryouts or skill growth."
+    },
+    {
+      "label": "Tryout Info",
+      "response": "Tryouts are scheduled for Thursday, September 10, 2026 from 3:30 PM to 4:45 PM at College Park Baptist Church. They are open to boys and girls in grades 3 through 12. No payment is collected online."
+    },
+    {
+      "label": "Contact the Team",
+      "response": "The team email will be added after the domain is secured. You can also fill out the Contact form on our Contact page and we typically respond within 48 hours."
+    },
+    {
+      "label": "Book a Performance",
+      "response": "We perform at schools, churches, halftime shows, community events, camps, and more! Visit our Book Us page and fill out the Performance Request Form. We'll follow up within 5 business days."
+    },
+    {
+      "label": "Sponsorship",
+      "response": "Sponsorship is a great way to support local youth while getting visibility for your business. Levels include Ace, King, Queen, Jack, and Friend sponsors. 1018 Mobile Detailing is featured as an ACE sponsor."
+    },
+    {
+      "label": "Store / Merch",
+      "response": "Our online store will open later. Sign up for notifications on the Store page and we will let you know when Salem Jump Rope gear is available for purchase."
+    },
+    {
+      "label": "Team Access",
+      "response": "Team Access can use one shared team username and password after the site is hosted. The password should be set through the website host, not inside the public page files."
+    }
+  ],
+  "tutorials": [
+    {
+      "name": "Basic Bounce",
+      "difficulty": "beginner",
+      "desc": "The foundation of all jump rope skills. Master your timing and rhythm with this entry level technique."
+    },
+    {
+      "name": "Alternate Foot Step",
+      "difficulty": "beginner",
+      "desc": "Jump rope like you're running in place. Improves coordination and foot speed."
+    },
+    {
+      "name": "Side Swing",
+      "difficulty": "beginner",
+      "desc": "A foundational trick that adds style and sets up more complex combinations."
+    },
+    {
+      "name": "Criss Cross",
+      "difficulty": "intermediate",
+      "desc": "Cross your arms in front and jump through. This is a classic crowd pleaser skill."
+    },
+    {
+      "name": "Double Under",
+      "difficulty": "intermediate",
+      "desc": "Two rotations of the rope for every one jump. Builds power, timing, and coordination."
+    },
+    {
+      "name": "Speed Step",
+      "difficulty": "intermediate",
+      "desc": "Fast paced alternating foot jumps. Great for speed and endurance development."
+    },
+    {
+      "name": "Double Dutch Entry",
+      "difficulty": "advanced",
+      "desc": "Master the timing to enter two turning ropes. This is one of the most exciting skills in the sport."
+    },
+    {
+      "name": "Partner Skills",
+      "difficulty": "advanced",
+      "desc": "Synchronized partner jumping requiring communication, rhythm, and trust."
+    }
   ],
   "tryoutSkills": [
     "Single bounce in rhythm",
@@ -192,16 +406,6 @@
     "Completed tryout form",
     "Parade routine for bonus points",
     "Any additional skills you want to show"
-  ],
-  "tutorials": [
-    { "name": "Basic Bounce", "difficulty": "beginner", "desc": "The foundation of all jump rope skills. Master your timing and rhythm with this entry level technique." },
-    { "name": "Alternate Foot Step", "difficulty": "beginner", "desc": "Jump rope like you're running in place. Improves coordination and foot speed." },
-    { "name": "Side Swing", "difficulty": "beginner", "desc": "A foundational trick that adds style and sets up more complex combinations." },
-    { "name": "Criss Cross", "difficulty": "intermediate", "desc": "Cross your arms in front and jump through. This is a classic crowd pleaser skill." },
-    { "name": "Double Under", "difficulty": "intermediate", "desc": "Two rotations of the rope for every one jump. Builds power, timing, and coordination." },
-    { "name": "Speed Step", "difficulty": "intermediate", "desc": "Fast paced alternating foot jumps. Great for speed and endurance development." },
-    { "name": "Double Dutch Entry", "difficulty": "advanced", "desc": "Master the timing to enter two turning ropes. This is one of the most exciting skills in the sport." },
-    { "name": "Partner Skills", "difficulty": "advanced", "desc": "Synchronized partner jumping requiring communication, rhythm, and trust." }
   ],
   "workouts": [
     {
@@ -237,54 +441,107 @@
       "cooldown": "8 min team stretch circle, debrief"
     }
   ],
-  "programs": [
-    { "icon": "📋", "name": "Beginner Skill Checklist", "desc": "A printable checklist of all beginner skills with space to track progress." },
-    { "icon": "📅", "name": "Clinic Practice Plan", "desc": "4-day clinic schedule with coaching notes and drill breakdowns." },
-    { "icon": "💪", "name": "Team Conditioning Plan", "desc": "Seasonal conditioning program used by the Salem Jump Rope team." },
-    { "icon": "🎯", "name": "Tryout Prep List", "desc": "A step by step guide for athletes preparing for Salem Jump Rope tryouts." },
-    { "icon": "🪢", "name": "Double Dutch Basics", "desc": "Visual guide to Double Dutch turning, entry, and basic combinations." }
+  "faq": [
+    {
+      "q": "How do I register for a clinic?",
+      "a": "Use the Clinic Interest Form on our Clinic page to express your interest. A team representative will follow up with registration details, dates, and any fees involved."
+    },
+    {
+      "q": "What age groups can try out for the team?",
+      "a": "Salem Jump Rope tryouts are open to boys and girls in grades 3 through 12."
+    },
+    {
+      "q": "Do kids need prior jump rope experience to attend a clinic?",
+      "a": "No! Clinics are open to all experience levels, including complete beginners. Our coaching staff works with each student at their level."
+    },
+    {
+      "q": "How can we book Salem Jump Rope for our event?",
+      "a": "Use the Performance Request Form on our Book Us page. We perform at schools, churches, community events, halftime shows, camps, and more. A team representative will follow up within 5 business days."
+    },
+    {
+      "q": "Is there a cost to try out?",
+      "a": "Tryout interest is free to express through our online form. Any associated fees for the tryout session or team participation will be communicated directly by the coaching staff."
+    },
+    {
+      "q": "When is the store opening?",
+      "a": "The Salem Jump Rope online store will open later. Sign up for notifications on the Store page and we will let you know when gear is available."
+    },
+    {
+      "q": "How can my business sponsor the team?",
+      "a": "We have multiple sponsorship levels available: Ace Sponsor, King Sponsor, Queen Sponsor, Jack Sponsor, and Friend Sponsor. Fill out the Sponsorship Interest Form on our Sponsorship page and we'll be in touch."
+    },
+    {
+      "q": "Where do clinics and practices take place?",
+      "a": "The Mini Fall Clinic is scheduled for River Oaks Community Church, and the September 10, 2026 tryout is scheduled for College Park Baptist Church. Practice locations and any changes will be confirmed by the coaching staff."
+    }
   ],
   "fitnessCards": [
-    { "title": "10 Min Beginner Jump Rope Workout", "duration": "10 Minutes", "level": "Beginner", "desc": "Perfect for first timers or warmup sessions. Basic bounce intervals with rest periods designed to build the jump rope habit." },
-    { "title": "20 Min Conditioning Workout", "duration": "20 Minutes", "level": "Intermediate", "desc": "A full conditioning session combining speed steps, double unders, and basic tricks with timed intervals." },
-    { "title": "Speed & Agility Workout", "duration": "25 Minutes", "level": "Advanced", "desc": "High intensity agility training using jump rope drills that build foot speed, reaction time, and athletic coordination." },
-    { "title": "Family Jump Challenge", "duration": "15 Minutes", "level": "All Levels", "desc": "A fun family friendly workout designed for all ages. Rotate through basic skills together. No experience required." },
-    { "title": "Team Endurance Builder", "duration": "30 Minutes", "level": "Advanced or Team", "desc": "Long form endurance conditioning designed for competitive athletes. Builds cardiovascular base and mental toughness." }
+    {
+      "title": "10 Min Beginner Jump Rope Workout",
+      "duration": "10 Minutes",
+      "level": "Beginner",
+      "desc": "Perfect for first timers or warmup sessions. Basic bounce intervals with rest periods designed to build the jump rope habit."
+    },
+    {
+      "title": "20 Min Conditioning Workout",
+      "duration": "20 Minutes",
+      "level": "Intermediate",
+      "desc": "A full conditioning session combining speed steps, double unders, and basic tricks with timed intervals."
+    },
+    {
+      "title": "Speed & Agility Workout",
+      "duration": "25 Minutes",
+      "level": "Advanced",
+      "desc": "High intensity agility training using jump rope drills that build foot speed, reaction time, and athletic coordination."
+    },
+    {
+      "title": "Family Jump Challenge",
+      "duration": "15 Minutes",
+      "level": "All Levels",
+      "desc": "A fun family friendly workout designed for all ages. Rotate through basic skills together. No experience required."
+    },
+    {
+      "title": "Team Endurance Builder",
+      "duration": "30 Minutes",
+      "level": "Advanced or Team",
+      "desc": "Long form endurance conditioning designed for competitive athletes. Builds cardiovascular base and mental toughness."
+    }
   ],
   "eventTypes": [
-    { "icon": "🏫", "title": "School Performance", "desc": "Assemblies, pep rallies, and school demos" },
-    { "icon": "⛪", "title": "Church Event", "desc": "Youth groups, community days, celebrations" },
-    { "icon": "🎉", "title": "Community Event", "desc": "Festivals, fairs, and neighborhood gatherings" },
-    { "icon": "🏀", "title": "Halftime Show", "desc": "Basketball, football, and sporting event entertainment" },
-    { "icon": "🏕️", "title": "Camp or After School", "desc": "Day camps, summer programs, enrichment activities" },
-    { "icon": "💪", "title": "Fitness Demo", "desc": "Wellness fairs, health events, school PE days" },
-    { "icon": "🎈", "title": "Private Event", "desc": "Birthdays, corporate events, private celebrations" }
-  ],
-  "products": [
-    { "icon": "👕", "image": "Images/merch/salem-jump-rope-shirt-logo.jpg", "name": "Team Shirt", "desc": "Official Salem Jump Rope performance shirt. Black and gold.", "price": "$25.00", "paymentUrl": "" },
-    { "icon": "🧥", "image": "", "name": "Team Hoodie", "desc": "Heavyweight zip hoodie with embroidered Salem Jump Rope logo.", "price": "$55.00", "paymentUrl": "" },
-    { "icon": "🪢", "image": "", "name": "Speed Jump Rope", "desc": "Lightweight speed rope used by our coaching staff and athletes.", "price": "$18.00", "paymentUrl": "" },
-    { "icon": "🗂️", "image": "", "name": "Sticker Pack", "desc": "Set of 5 Salem Jump Rope vinyl stickers. Perfect for water bottles and gear.", "price": "$8.00", "paymentUrl": "" },
-    { "icon": "👕", "image": "", "name": "Clinic Shirt", "desc": "Exclusive shirt given to clinic participants. Also available separately.", "price": "$22.00", "paymentUrl": "" },
-    { "icon": "💧", "image": "", "name": "Water Bottle", "desc": "Insulated stainless steel bottle with Salem Jump Rope branding. 32oz.", "price": "$28.00", "paymentUrl": "" }
-  ],
-  "faq": [
-    { "q": "How do I register for a clinic?", "a": "Use the Clinic Interest Form on our Clinic page to express your interest. A team representative will follow up with registration details, dates, and any fees involved." },
-    { "q": "What age groups can try out for the team?", "a": "Salem Jump Rope tryouts are open to boys and girls in grades 3 through 12." },
-    { "q": "Do kids need prior jump rope experience to attend a clinic?", "a": "No! Clinics are open to all experience levels, including complete beginners. Our coaching staff works with each student at their level." },
-    { "q": "How can we book Salem Jump Rope for our event?", "a": "Use the Performance Request Form on our Book Us page. We perform at schools, churches, community events, halftime shows, camps, and more. A team representative will follow up within 5 business days." },
-    { "q": "Is there a cost to try out?", "a": "Tryout interest is free to express through our online form. Any associated fees for the tryout session or team participation will be communicated directly by the coaching staff." },
-    { "q": "When is the store opening?", "a": "The Salem Jump Rope online store will open later. Sign up for notifications on the Store page and we will let you know when gear is available." },
-    { "q": "How can my business sponsor the team?", "a": "We have multiple sponsorship levels available: Ace Sponsor, King Sponsor, Queen Sponsor, Jack Sponsor, and Friend Sponsor. Fill out the Sponsorship Interest Form on our Sponsorship page and we'll be in touch." },
-    { "q": "Where do clinics and practices take place?", "a": "The Mini Fall Clinic is scheduled for River Oaks Community Church, and the September 10, 2026 tryout is scheduled for College Park Baptist Church. Practice locations and any changes will be confirmed by the coaching staff." }
-  ],
-  "chatbotTopics": [
-    { "label": "Clinic Info", "response": "The Mini Fall Clinic is scheduled for Monday, August 31 and Tuesday, September 1, 2026 from 3:30 PM to 4:45 PM at River Oaks Community Church. It is open to students in 3rd through 12th grade who are interested in tryouts or skill growth." },
-    { "label": "Tryout Info", "response": "Tryouts are scheduled for Thursday, September 10, 2026 from 3:30 PM to 4:45 PM at College Park Baptist Church. They are open to boys and girls in grades 3 through 12. No payment is collected online." },
-    { "label": "Contact the Team", "response": "The team email will be added after the domain is secured. You can also fill out the Contact form on our Contact page and we typically respond within 48 hours." },
-    { "label": "Book a Performance", "response": "We perform at schools, churches, halftime shows, community events, camps, and more! Visit our Book Us page and fill out the Performance Request Form. We'll follow up within 5 business days." },
-    { "label": "Sponsorship", "response": "Sponsorship is a great way to support local youth while getting visibility for your business. Levels include Ace, King, Queen, Jack, and Friend sponsors. 1018 Mobile Detailing is featured as an ACE sponsor." },
-    { "label": "Store / Merch", "response": "Our online store will open later. Sign up for notifications on the Store page and we will let you know when Salem Jump Rope gear is available for purchase." },
-    { "label": "Team Access", "response": "Team Access can use one shared team username and password after the site is hosted. The password should be set through the website host, not inside the public page files." }
+    {
+      "icon": "🏫",
+      "title": "School Performance",
+      "desc": "Assemblies, pep rallies, and school demos"
+    },
+    {
+      "icon": "⛪",
+      "title": "Church Event",
+      "desc": "Youth groups, community days, celebrations"
+    },
+    {
+      "icon": "🎉",
+      "title": "Community Event",
+      "desc": "Festivals, fairs, and neighborhood gatherings"
+    },
+    {
+      "icon": "🏀",
+      "title": "Halftime Show",
+      "desc": "Basketball, football, and sporting event entertainment"
+    },
+    {
+      "icon": "🏕️",
+      "title": "Camp or After School",
+      "desc": "Day camps, summer programs, enrichment activities"
+    },
+    {
+      "icon": "💪",
+      "title": "Fitness Demo",
+      "desc": "Wellness fairs, health events, school PE days"
+    },
+    {
+      "icon": "🎈",
+      "title": "Private Event",
+      "desc": "Birthdays, corporate events, private celebrations"
+    }
   ]
 }
