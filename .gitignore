@@ -1,0 +1,6 @@
+.DS_Store
+*.zip
+netlify-upload/
+salem-jump-rope-netlify-upload/
+salem-skip-its-netlify-upload/
+.claude/

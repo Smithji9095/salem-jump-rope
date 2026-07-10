@@ -1,0 +1,215 @@
+backend:
+  name: github
+  repo: REPLACE_WITH_GITHUB_OWNER/REPLACE_WITH_REPO_NAME
+  branch: main
+
+local_backend: true
+publish_mode: editorial_workflow
+media_folder: "Images/uploads"
+public_folder: "/Images/uploads"
+
+collections:
+  - name: "website"
+    label: "Website"
+    files:
+      - name: "site_content"
+        label: "Website Content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Site Settings"
+            name: "siteSettings"
+            widget: "object"
+            fields:
+              - { label: "Browser Title", name: "siteTitle", widget: "string" }
+              - { label: "Meta Description", name: "metaDescription", widget: "text" }
+              - { label: "Social Share Description", name: "ogDescription", widget: "text" }
+              - { label: "Hero Eyebrow", name: "heroEyebrow", widget: "string" }
+              - { label: "Hero Title Line 1", name: "heroTitleLine1", widget: "string" }
+              - { label: "Hero Gold Word", name: "heroTitleAccent", widget: "string" }
+              - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
+              - { label: "Mission Text", name: "missionText", widget: "text" }
+              - label: "Homepage Stats"
+                name: "homeStats"
+                widget: "list"
+                summary: "{{fields.number}} - {{fields.label}}"
+                fields:
+                  - { label: "Number", name: "number", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+              - { label: "Spring Clinic Title", name: "springClinicTitle", widget: "string" }
+              - { label: "Spring Clinic Date", name: "springClinicDate", widget: "string" }
+              - { label: "Spring Clinic Time / Location", name: "springClinicTimeLocation", widget: "string" }
+              - { label: "Spring Clinic Description", name: "springClinicDescription", widget: "text" }
+              - { label: "Fall Clinic Title", name: "fallClinicTitle", widget: "string" }
+              - { label: "Fall Clinic Date", name: "fallClinicDate", widget: "string" }
+              - { label: "Fall Clinic Time / Location", name: "fallClinicTimeLocation", widget: "string" }
+              - { label: "Fall Clinic Description", name: "fallClinicDescription", widget: "text" }
+              - { label: "Tryout Date", name: "tryoutDate", widget: "string" }
+              - { label: "Tryout Time / Location", name: "tryoutTimeLocation", widget: "string" }
+              - { label: "Contact Email", name: "contactEmail", widget: "string", required: false }
+              - { label: "Contact Phone", name: "contactPhone", widget: "string", required: false }
+              - { label: "Service Area", name: "contactServiceArea", widget: "string" }
+              - { label: "Response Time", name: "contactResponseTime", widget: "string" }
+              - { label: "Facebook URL", name: "facebookUrl", widget: "string", required: false }
+              - { label: "Instagram URL", name: "instagramUrl", widget: "string", required: false }
+              - { label: "YouTube URL", name: "youtubeUrl", widget: "string", required: false }
+              - { label: "Store Notice Title", name: "storeNoticeTitle", widget: "string" }
+              - { label: "Store Notice Text", name: "storeNoticeText", widget: "text" }
+
+          - label: "Coaches"
+            name: "coaches"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role", name: "role", widget: "string" }
+              - { label: "Photo", name: "photo", widget: "image", required: false }
+              - { label: "Bio", name: "bio", widget: "text" }
+              - { label: "Experience", name: "experience", widget: "text" }
+              - { label: "Focus Quote", name: "focus", widget: "text" }
+
+          - label: "Captains"
+            name: "captains"
+            widget: "list"
+            summary: "{{fields.name}}"
+            required: false
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Grade", name: "grade", widget: "string" }
+              - { label: "Quote", name: "quote", widget: "text" }
+
+          - label: "ACE Athletes"
+            name: "aces"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+
+          - label: "History Timeline"
+            name: "timeline"
+            widget: "list"
+            summary: "{{fields.year}} - {{fields.title}}"
+            fields:
+              - { label: "Year", name: "year", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Sponsor Levels"
+            name: "sponsorLevels"
+            widget: "list"
+            summary: "{{fields.level}}"
+            fields:
+              - { label: "Level", name: "level", widget: "string" }
+              - { label: "Amount", name: "amount", widget: "string" }
+              - { label: "Tagline", name: "tagline", widget: "string" }
+              - { label: "Card Style", name: "cls", widget: "select", options: ["gold-rope", "team", "clinic", "community"] }
+              - { label: "Icon", name: "icon", widget: "string" }
+              - label: "Perks"
+                name: "perks"
+                widget: "list"
+                field: { label: "Perk", name: "perk", widget: "string" }
+
+          - label: "Current Sponsors"
+            name: "currentSponsors"
+            widget: "list"
+            summary: "{{fields.name}}"
+            required: false
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Level", name: "level", widget: "string" }
+              - { label: "Logo", name: "logo", widget: "image", required: false }
+              - { label: "Description", name: "description", widget: "text", required: false }
+              - { label: "Website URL", name: "website", widget: "string", required: false }
+
+          - label: "Mentorship Values"
+            name: "mentorValues"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Tryout Skills"
+            name: "tryoutSkills"
+            widget: "list"
+            field: { label: "Skill", name: "skill", widget: "string" }
+
+          - label: "Tutorials"
+            name: "tutorials"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Difficulty", name: "difficulty", widget: "select", options: ["beginner", "intermediate", "advanced"] }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Workouts"
+            name: "workouts"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Level", name: "level", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Warmup", name: "warmup", widget: "text" }
+              - { label: "Skill Block", name: "skills", widget: "text" }
+              - { label: "Conditioning", name: "conditioning", widget: "text" }
+              - { label: "Cooldown", name: "cooldown", widget: "text" }
+
+          - label: "Program Resources"
+            name: "programs"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Fitness Cards"
+            name: "fitnessCards"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Duration", name: "duration", widget: "string" }
+              - { label: "Level", name: "level", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Book Us Event Types"
+            name: "eventTypes"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+
+          - label: "Store Products"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Icon", name: "icon", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - { label: "Price", name: "price", widget: "string" }
+              - { label: "Square Payment URL", name: "paymentUrl", widget: "string", required: false }
+
+          - label: "FAQ"
+            name: "faq"
+            widget: "list"
+            summary: "{{fields.q}}"
+            fields:
+              - { label: "Question", name: "q", widget: "string" }
+              - { label: "Answer", name: "a", widget: "text" }
+
+          - label: "Chatbot Topics"
+            name: "chatbotTopics"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Button Label", name: "label", widget: "string" }
+              - { label: "Response", name: "response", widget: "text" }

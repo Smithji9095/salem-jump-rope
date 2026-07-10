@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salem Jump Rope | Youth Jump Rope Team</title>
+  <meta name="description" content="Salem Jump Rope is a Christian faith based youth performance jump rope team building character, leadership, faith, fitness, and community impact." />
+  <meta name="keywords" content="Salem Jump Rope, youth jump rope team, jump rope clinics, jump rope tryouts, jump rope fitness, jump rope performances, jump rope team Salem" />
+  <meta property="og:title" content="Salem Jump Rope | Youth Jump Rope Team" />
+  <meta property="og:description" content="Youth jump rope team offering clinics, tryouts, performances, and fitness programs in Salem." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============================================================
+       HEADER / NAV
+  ============================================================ -->
+  <header class="site-header" id="top">
+    <nav class="nav-container" role="navigation" aria-label="Main navigation">
+      <div class="nav-logo">
+        <button class="logo-btn" onclick="showPage('home')" aria-label="Go to homepage">
+          <div class="logo-mark">
+            <img class="brand-logo-img" src="Salem Jump Rope logo.jpg" alt="Salem Jump Rope logo" />
+            <span class="logo-rope-accent" aria-hidden="true"></span>
+            <div class="logo-text-block">
+              <span class="logo-city">SALEM</span>
+              <span class="logo-team">Jump Rope</span>
+            </div>
+          </div>
+        </button>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="menubar">
+        <li role="none"><button class="nav-link" onclick="showPage('home')" role="menuitem">Home</button></li>
+
+        <li class="has-dropdown" role="none">
+          <button class="nav-link dropdown-trigger" aria-haspopup="true" aria-expanded="false" role="menuitem">
+            About <span class="arrow" aria-hidden="true">▾</span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-label="About submenu">
+            <li role="none"><button onclick="showPage('coaches')" role="menuitem">Coaches</button></li>
+            <li role="none"><button onclick="showPage('captains')" role="menuitem">Captains</button></li>
+            <li role="none"><button onclick="showPage('aces')" role="menuitem">Aces</button></li>
+            <li role="none"><button onclick="showPage('history')" role="menuitem">History</button></li>
+            <li role="none"><button onclick="showPage('sponsorship')" role="menuitem">Sponsorship</button></li>
+            <li role="none"><button onclick="showPage('mentorship')" role="menuitem">Mentorship</button></li>
+          </ul>
+        </li>
+
+        <li role="none"><button class="nav-link" onclick="showPage('clinic')" role="menuitem">Clinic</button></li>
+        <li role="none"><button class="nav-link" onclick="showPage('tryout')" role="menuitem">Tryout</button></li>
+        <li role="none"><button class="nav-link" onclick="showPage('learn')" role="menuitem">Learn</button></li>
+        <li role="none"><button class="nav-link" onclick="showPage('fitness')" role="menuitem">Fitness</button></li>
+        <li role="none"><button class="nav-link" onclick="showPage('store')" role="menuitem">Store</button></li>
+        <li role="none"><button class="nav-link" onclick="showPage('contact')" role="menuitem">Contact</button></li>
+        <li role="none"><button class="nav-link" onclick="showPage('constitution')" role="menuitem">Team Constitution</button></li>
+        <li role="none"><button class="nav-link nav-cta" onclick="showPage('book')" role="menuitem">Book Us</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ======================== HOME ======================== -->
+    <section id="page-home" class="page active" aria-label="Home">
+
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-rope-lines" aria-hidden="true">
+          <div class="rope-line rl-1"></div>
+          <div class="rope-line rl-2"></div>
+          <div class="rope-line rl-3"></div>
+        </div>
+        <div class="hero-content">
+          <p class="hero-eyebrow">Jump. Lead. Impact.</p>
+          <h1 class="hero-title">JUMP WITH<br><span class="gold">PURPOSE.</span></h1>
+          <p class="hero-subtitle">Building character, strengthening faith, and developing leaders through the sport of jump rope.</p>
+        </div>
+        <div class="hero-badge" aria-hidden="true">
+          <div class="badge-circle">
+            <span>EST.</span>
+            <span class="badge-year">2026</span>
+            <span>SALEM</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission Strip -->
+      <div class="mission-strip">
+        <div class="container">
+          <p class="mission-text">We exist to build character, strengthen faith, and develop leaders through the sport of jump rope, empowering athletes to <strong>jump with purpose, lead with integrity, impact their communities, and honor God</strong> in all they do.</p>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="stats-bar">
+        <div class="container stats-grid">
+          <div class="stat-item">
+            <span class="stat-num">3 to 12</span>
+            <span class="stat-label">Grade Range</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">2×</span>
+            <span class="stat-label">Weekly Practices</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">A.C.E.</span>
+            <span class="stat-label">Highest Honor</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">2026</span>
+            <span class="stat-label">Salem Launch</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Cards -->
+      <div class="section-dark">
+        <div class="container">
+          <h2 class="section-title text-center">Everything We Offer</h2>
+          <p class="section-sub text-center">From first time jumpers to student leaders, Salem Jump Rope trains athletes to grow on and off the rope.</p>
+          <div class="feature-grid">
+            <div class="feature-card" onclick="showPage('clinic')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')showPage('clinic')" aria-label="Learn about Clinics">
+              <div class="feature-icon" aria-hidden="true">🪢</div>
+              <h3>Clinics</h3>
+              <p>Mini clinics and seasonal skill sessions help students build confidence, prepare for tryouts, and grow their rope skills.</p>
+              <span class="feature-link">Learn More →</span>
+            </div>
+            <div class="feature-card" onclick="showPage('tryout')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')showPage('tryout')" aria-label="Learn about Tryouts">
+              <div class="feature-icon" aria-hidden="true">⭐</div>
+              <h3>Tryouts</h3>
+              <p>Tryouts are open to boys and girls in grades 3 through 12 who want to grow in skill, character, and team commitment.</p>
+              <span class="feature-link">Learn More →</span>
+            </div>
+            <div class="feature-card" onclick="showPage('learn')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')showPage('learn')" aria-label="Learn Skills">
+              <div class="feature-icon" aria-hidden="true">🎓</div>
+              <h3>Learn</h3>
+              <p>Tutorials, skill guides, workouts, and program resources to help you level up your jump rope game.</p>
+              <span class="feature-link">Explore →</span>
+            </div>
+            <div class="feature-card" onclick="showPage('book')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')showPage('book')" aria-label="Book a Performance">
+              <div class="feature-icon" aria-hidden="true">🎤</div>
+              <h3>Book Us</h3>
+              <p>We perform at schools, churches, halftime shows, camps, and community events. Let us bring the energy to you.</p>
+              <span class="feature-link">Book Now →</span>
+            </div>
+            <div class="feature-card" onclick="showPage('fitness')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')showPage('fitness')" aria-label="Fitness Programs">
+              <div class="feature-icon" aria-hidden="true">💪</div>
+              <h3>Fitness</h3>
+              <p>Jump rope is one of the most effective workouts. Explore beginner plans, team conditioning, and family fitness.</p>
+              <span class="feature-link">Get Moving →</span>
+            </div>
+            <div class="feature-card" onclick="showPage('mentorship')" role="button" tabindex="0" onkeypress="if(event.key==='Enter')showPage('mentorship')" aria-label="Mentorship Program">
+              <div class="feature-icon" aria-hidden="true">🤝</div>
+              <h3>Mentorship</h3>
+              <p>Experienced team members invest in younger athletes through skill support, encouragement, and Christlike leadership.</p>
+              <span class="feature-link">Learn More →</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Teaser -->
+      <div class="section-light">
+        <div class="container narrow">
+          <div class="col-text">
+            <p class="eyebrow-label">Who We Are</p>
+            <h2>More Than a Jump Rope Team</h2>
+            <p>Salem Jump Rope is a Christian faith based performance jump rope team using the sport to build skills, character, leadership, and community impact.</p>
+            <p>Through performances, mentoring, Bible based discipleship, and service opportunities, the team culture is rooted in kindness, encouragement, and personal growth.</p>
+            <div class="pill-row">
+              <span class="pill">Grades 3 through 12</span>
+              <span class="pill">Boys & Girls</span>
+              <span class="pill">Faith Based</span>
+              <span class="pill">Performance Team</span>
+            </div>
+            <button class="btn btn-gold" onclick="showPage('history')">Our Story</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA Banner -->
+      <div class="cta-banner">
+        <div class="container text-center">
+          <h2>Ready to Skip the Limits?</h2>
+          <p>Whether you are a student, parent, school, or sponsor, there is a place for you in the Salem Jump Rope family.</p>
+          <div class="cta-buttons">
+            <button class="btn btn-gold" onclick="showPage('tryout')">Join the Team</button>
+            <button class="btn btn-white" onclick="showPage('contact')">Get in Touch</button>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /home -->
+
+
+    <!-- ======================== COACHES ======================== -->
+    <section id="page-coaches" class="page" aria-label="Coaches">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Salem Jump Rope</p>
+          <h1>Our Coaching Staff</h1>
+          <p>Led by experienced educators, athletes, and community leaders who believe in the power of jump rope.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="coach-grid" id="coachGrid">
+            <!-- Populated by JS from data.coaches -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CAPTAINS ======================== -->
+    <section id="page-captains" class="page" aria-label="Captains">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Team Leadership</p>
+          <h1>Meet Our Captains</h1>
+          <p>Team captains will be added soon.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="coming-soon-block">
+            <div class="cs-icon" aria-hidden="true">⭐</div>
+            <h2>Team Captains Coming Soon</h2>
+            <p>Captain information will be added when the team leadership roster is ready.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== ACES ======================== -->
+    <section id="page-aces" class="page" aria-label="Aces Honor Roll">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Achievement Award</p>
+          <h1>The Ace Honor Roll</h1>
+          <p>A.C.E. stands for Achieving Christlike Excellence. It is Salem Jump Rope's highest honor for athletes who master skill levels, choose character, and become examples to others.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="ace-intro-card">
+            <h2>What is an Ace?</h2>
+            <p>An ACE is a student-athlete who has mastered Salem Jump Rope skill and character development levels, demonstrated Christlike leadership in practice and mentorship, completed the Humility Project, and been recognized by the coaching staff for dedication, character, and excellence.</p>
+          </div>
+          <div class="ace-grid" id="aceGrid">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== HISTORY ======================== -->
+    <section id="page-history" class="page" aria-label="Team History">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Our Foundation</p>
+          <h1>The Salem Jump Rope Story</h1>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container narrow">
+          <div class="history-intro">
+            <p>Salem Jump Rope grew from years of physical education teaching, school jump rope teams, driveway practice with family, and small community clubs. The program carries forward the belief that jump rope can shape confidence, character, leadership, and faith.</p>
+            <p>Coach Tiffany Carroll's journey began in 2008 after graduating from East Carolina University and learning from strong school and jump rope mentors. That foundation eventually led to COA SKIP ITS in 2024 and the launch of Salem Jump Rope in 2026.</p>
+            <p>Today, Salem Jump Rope is being built as a performance based team where students learn to work hard, serve others, mentor younger athletes, and leave a lasting impact.</p>
+          </div>
+
+          <div class="timeline">
+            <div id="timelineContainer">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== SPONSORSHIP ======================== -->
+    <section id="page-sponsorship" class="page" aria-label="Sponsorship">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Partner With Us</p>
+          <h1>Sponsorship Opportunities</h1>
+          <p>Your support fuels a faith based youth program built around skill, character, leadership, service, and community impact.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+
+          <div class="two-col">
+            <div class="col-text">
+              <h2>Why Sponsor Salem Jump Rope?</h2>
+              <p>When you sponsor Salem Jump Rope, you're not just advertising your business. You are investing in students who are learning discipline, leadership, service, and excellence through a positive team culture.</p>
+              <ul class="check-list">
+                <li>Direct visibility with hundreds of families</li>
+                <li>Logo placement on team materials and events</li>
+                <li>Recognition at clinics and performances</li>
+                <li>Social media shoutouts and website features</li>
+                <li>Connection to a trusted community organization</li>
+                <li>Demonstrating your commitment to local youth</li>
+              </ul>
+            </div>
+            <div class="col-image">
+              <div class="image-placeholder" aria-label="Sponsorship benefits visual">
+                <div class="img-ph-inner">
+                  <span class="img-ph-icon" aria-hidden="true">🏆</span>
+                  <p>Partner Benefits</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="text-center mt-lg">Sponsor Levels</h2>
+          <div class="sponsor-levels" id="sponsorLevels">
+            <!-- Populated by JS -->
+          </div>
+
+          <h2 class="text-center mt-lg">Current Sponsors</h2>
+          <p class="text-center">We are proud to be supported by community partners who believe in the next generation.</p>
+          <div class="ace-sponsor-spotlight">
+            <div class="ace-sponsor-logo-wrap">
+              <img src="Images/1018 Detailing Logo.png" alt="1018 Mobile Detailing logo" />
+            </div>
+            <div>
+              <p class="eyebrow-label">ACE Sponsor</p>
+              <h2>1018 Mobile Detailing</h2>
+              <p>1018 Mobile Detailing is proud to support Salem Jump Rope as an ACE level sponsor. The company brings professional mobile detailing service directly to customers with clean results, reliable communication, and care for every vehicle.</p>
+            </div>
+          </div>
+          <div class="sponsor-logo-grid">
+            <article class="sponsor-logo-card sponsor-featured">
+              <img src="Images/1018 Detailing Logo.png" alt="1018 Mobile Detailing logo" />
+              <h3>1018 Mobile Detailing</h3>
+              <p>ACE Sponsor</p>
+            </article>
+            <div class="sponsor-logo-ph" aria-label="Open sponsor spot">Open Sponsor Spot</div>
+            <div class="sponsor-logo-ph" aria-label="Open sponsor spot">Open Sponsor Spot</div>
+            <div class="sponsor-logo-ph" aria-label="Open sponsor spot">Open Sponsor Spot</div>
+            <div class="sponsor-logo-ph" aria-label="Open sponsor spot">Open Sponsor Spot</div>
+          </div>
+
+          <div class="form-section">
+            <h2>Become a Sponsor</h2>
+            <p class="form-note">Sponsorship payments are not collected on this website at this time. A team representative will follow up to discuss sponsorship packages and payment options.</p>
+            <form id="sponsorForm" class="skip-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="sp-biz">Business Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="sp-biz" name="businessName" required placeholder="Your Business" />
+                </div>
+                <div class="form-group">
+                  <label for="sp-contact">Contact Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="sp-contact" name="contactName" required placeholder="Full Name" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="sp-email">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="sp-email" name="email" required placeholder="email@business.com" />
+                </div>
+                <div class="form-group">
+                  <label for="sp-phone">Phone</label>
+                  <input type="tel" id="sp-phone" name="phone" placeholder="(555) 555-5555" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="sp-level">Sponsorship Level Interest <span aria-hidden="true">*</span></label>
+                <select id="sp-level" name="level" required>
+                  <option value="">Select a Level</option>
+                  <option>Ace Sponsor, $550 and up</option>
+                  <option>King Sponsor, $400</option>
+                  <option>Queen Sponsor, $250</option>
+                  <option>Jack Sponsor, $150</option>
+                  <option>Friend Sponsor, $50</option>
+                  <option>Not Sure Yet</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="sp-message">Message</label>
+                <textarea id="sp-message" name="message" rows="4" placeholder="Tell us about your business and why you'd like to partner with us..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold">Submit Sponsorship Interest</button>
+              <div class="form-success" id="sponsorSuccess" aria-live="polite" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== MENTORSHIP ======================== -->
+    <section id="page-mentorship" class="page" aria-label="Mentorship Program">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Team Culture</p>
+          <h1>Mentorship Program</h1>
+          <p>Because mentorship matters: experienced athletes help younger teammates grow in skill, character, confidence, and belonging.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="narrow text-center mb-lg">
+            <h2>The Foundation of Our Culture</h2>
+            <p>At Salem Jump Rope, some of the most valuable lessons learned through sports happen through relationships. Mentorship is a vital part of the team culture because it helps every athlete feel valued, supported, and known.</p>
+          </div>
+
+          <div class="value-cards" id="mentorValues">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="two-col mt-lg">
+            <div class="col-text">
+              <h2>How It Works</h2>
+              <p>Experienced team members who have been on the team for at least one year may have the opportunity to become mentors. Coaches evaluate students based on skill readiness, character, responsibility, and leadership before recommending them for this role.</p>
+              <p>Mentors are paired with younger teammates and provide one on one skill support, encouragement, and guidance at practices. Beyond jump rope, they model positive character and help create a welcoming team environment.</p>
+              <h3 class="mt-md">Who Can Become a Mentor?</h3>
+              <ul class="check-list">
+                <li>Athletes who have been on the team at least one year</li>
+                <li>Recommended completion through Level 3 skills</li>
+                <li>Demonstrated character that reflects team values</li>
+                <li>Nominated and approved by the coaching staff</li>
+                <li>Committed to mentor training, accountability, and high standards of conduct</li>
+              </ul>
+            </div>
+            <div class="col-image">
+              <div class="image-placeholder large" aria-label="Mentorship in action photo">
+                <div class="img-ph-inner">
+                  <span class="img-ph-icon" aria-hidden="true">📸</span>
+                  <p>Mentorship in Action</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cta-banner mt-lg">
+            <div class="text-center">
+              <h2>Questions About Mentorship?</h2>
+              <button class="btn btn-gold" onclick="showPage('contact')">Contact Our Team</button>
+            </div>
+          </div>
+
+          <div class="culture-stage-grid mt-lg">
+            <div class="culture-stage">
+              <h3>Grades 3-5 | Learn &amp; Grow</h3>
+              <p>Foundation years focus on skill development, coachability, teamwork, work ethic, confidence, and learning the value of being a mentee.</p>
+            </div>
+            <div class="culture-stage">
+              <h3>Grades 6-8 | Mentor &amp; Lead</h3>
+              <p>As athletes mature, they are equipped to invest in younger teammates, model Christlike leadership, and develop communication and servant leadership skills.</p>
+            </div>
+            <div class="culture-stage">
+              <h3>Grades 9-12 | Lead &amp; Leave an Impact</h3>
+              <p>High school athletes are challenged to become independent leaders, pursue the ACE Award, help lead practices and clinics, contribute to choreography, and strengthen the program for the next generation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CLINIC ======================== -->
+    <section id="page-clinic" class="page" aria-label="Clinics">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Skill Development</p>
+          <h1>Jump Rope Clinics</h1>
+          <p>Clinics help students grow skills, prepare for tryouts, and decide where jump rope could take them next.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+
+          <div class="clinic-cards">
+            <div class="clinic-card spring">
+              <div class="clinic-badge">Spring</div>
+              <h2>Spring Clinic</h2>
+              <p class="clinic-date">📅 Dates to be announced by the coaching staff</p>
+              <p class="clinic-time">⏰ Time and location to be announced</p>
+              <p>Seasonal skill-building clinic focused on fundamentals, confidence, teamwork, and performance preparation.</p>
+              <button class="btn btn-gold" onclick="document.getElementById('clinicForm').scrollIntoView({behavior:'smooth'})">Register Interest</button>
+            </div>
+            <div class="clinic-card fall">
+              <div class="clinic-badge">Fall</div>
+              <h2>Mini Fall Clinic 2026</h2>
+              <p class="clinic-date">📅 Monday, August 31 &amp; Tuesday, September 1</p>
+              <p class="clinic-time">⏰ 3:30 PM to 4:45 PM | 📍 River Oaks Community Church</p>
+              <p>Cost: $5. Open to any student in 3rd through 12th grade who is interested in trying out for the team or simply getting better at jump rope.</p>
+              <button class="btn btn-gold" onclick="document.getElementById('clinicForm').scrollIntoView({behavior:'smooth'})">Register Interest</button>
+            </div>
+          </div>
+
+          <div class="info-block-grid mt-lg">
+            <div class="info-block">
+              <h3>What You'll Learn</h3>
+              <ul>
+                <li>Basic and advanced jump rope skills</li>
+                <li>Speed, agility, and footwork</li>
+                <li>Partner and group routines</li>
+                <li>Double Dutch techniques</li>
+                <li>Performance and presentation skills</li>
+                <li>Team communication and listening</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h3>Who Can Attend</h3>
+              <ul>
+                <li>Boys and girls in grades 3 through 12</li>
+                <li>All experience levels welcome</li>
+                <li>No prior jump rope experience required</li>
+                <li>Great for tryout preparation or skill growth</li>
+                <li>Families are encouraged to observe</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h3>What to Bring</h3>
+              <ul>
+                <li>Athletic shoes (non-marking soles)</li>
+                <li>Athletic clothing you can move in</li>
+                <li>Water bottle (labeled)</li>
+                <li>Jump rope if you have one (provided if not)</li>
+                <li>Positive attitude and energy</li>
+                <li>Signed parent consent form</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2 class="text-center mt-lg">Sample 4-Day Clinic Schedule</h2>
+          <div class="schedule-grid">
+            <div class="schedule-day">
+              <div class="day-header">Day 1</div>
+              <div class="day-item"><strong>Warmup:</strong> Dynamic stretching, jog, jump activation</div>
+              <div class="day-item"><strong>Skills:</strong> Basic bounce, alternate foot, side swing</div>
+              <div class="day-item"><strong>Drills:</strong> Entry timing, rope feel, pacing</div>
+              <div class="day-item"><strong>Cooldown:</strong> Stretch, breathing, team circle</div>
+            </div>
+            <div class="schedule-day">
+              <div class="day-header">Day 2</div>
+              <div class="day-item"><strong>Warmup:</strong> Jump activation circuit</div>
+              <div class="day-item"><strong>Skills:</strong> Criss cross, double under intro, speed steps</div>
+              <div class="day-item"><strong>Drills:</strong> Partner coordination, rhythm work</div>
+              <div class="day-item"><strong>Cooldown:</strong> Partner stretch, skill reflection</div>
+            </div>
+            <div class="schedule-day">
+              <div class="day-header">Day 3</div>
+              <div class="day-item"><strong>Warmup:</strong> Speed ladder, agility warm-up</div>
+              <div class="day-item"><strong>Skills:</strong> Double Dutch entry, turning mechanics</div>
+              <div class="day-item"><strong>Drills:</strong> Group sync, team routine basics</div>
+              <div class="day-item"><strong>Cooldown:</strong> Group stretch, performance goals</div>
+            </div>
+            <div class="schedule-day">
+              <div class="day-header">Day 4</div>
+              <div class="day-item"><strong>Warmup:</strong> Full team warm-up</div>
+              <div class="day-item"><strong>Skills:</strong> Review + showcase prep</div>
+              <div class="day-item"><strong>Showcase:</strong> Mini performance for families</div>
+              <div class="day-item"><strong>Celebration:</strong> Recognition, team cheer, certificate</div>
+            </div>
+          </div>
+
+          <div class="form-section" id="clinicForm">
+            <h2>Clinic Interest Form</h2>
+            <p class="form-note">Complete this form to express interest in an upcoming clinic. A team representative will follow up with registration details and any fees.</p>
+            <form id="clinicInterestForm" class="skip-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cl-parent">Parent / Guardian Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="cl-parent" name="parentName" required placeholder="Full Name" />
+                </div>
+                <div class="form-group">
+                  <label for="cl-student">Student Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="cl-student" name="studentName" required placeholder="Full Name" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cl-age">Student Age <span aria-hidden="true">*</span></label>
+                  <input type="number" id="cl-age" name="studentAge" required min="4" max="18" placeholder="Age" />
+                </div>
+                <div class="form-group">
+                  <label for="cl-exp">Experience Level</label>
+                  <select id="cl-exp" name="experience">
+                    <option value="">Select Level</option>
+                    <option>Beginner, no experience</option>
+                    <option>Beginner, some basic skills</option>
+                    <option>Intermediate, comfortable with basics</option>
+                    <option>Advanced, team experience</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="cl-season">Preferred Clinic Season <span aria-hidden="true">*</span></label>
+                <select id="cl-season" name="season" required>
+                  <option value="">Select Season</option>
+                  <option>Spring Clinic</option>
+                  <option>Fall Clinic</option>
+                  <option>Either</option>
+                </select>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="cl-email">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="cl-email" name="email" required placeholder="email@example.com" />
+                </div>
+                <div class="form-group">
+                  <label for="cl-phone">Phone</label>
+                  <input type="tel" id="cl-phone" name="phone" placeholder="(555) 555-5555" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="cl-notes">Questions or Notes</label>
+                <textarea id="cl-notes" name="notes" rows="3" placeholder="Any questions or anything we should know?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold">Submit Interest</button>
+              <div class="form-success" id="clinicSuccess" aria-live="polite" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== TRYOUT ======================== -->
+    <section id="page-tryout" class="page" aria-label="Tryouts">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Join the Team</p>
+          <h1>Salem Jump Rope Tryouts</h1>
+          <p>We are looking for coachable students ready to grow in skill, character, teamwork, and commitment.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+
+          <div class="two-col">
+            <div class="col-text">
+              <h2>Tryout Overview</h2>
+              <p>Salem Jump Rope holds tryouts for students in grades 3 through 12. Our team is open to boys and girls who demonstrate not just physical ability, but the character, coachability, and commitment that our program requires.</p>
+              <p>We do not just evaluate what you can do on the rope. We also look at how you listen, respond to coaching, and work with others. Every athlete who tries out will receive feedback.</p>
+              <p class="clinic-date">📅 Thursday, September 10, 2026</p>
+              <p class="clinic-time">⏰ 3:30 PM to 4:45 PM | 📍 College Park Baptist Church</p>
+            </div>
+            <div class="col-image">
+              <div class="image-placeholder" aria-label="Tryout action photo">
+                <div class="img-ph-inner">
+                  <span class="img-ph-icon" aria-hidden="true">📸</span>
+                  <p>Tryout Action</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-block-grid mt-lg">
+            <div class="info-block">
+              <h3>Who Should Try Out</h3>
+              <ul>
+                <li>Boys and girls in grades 3 through 12</li>
+                <li>Students with a desire to grow and compete</li>
+                <li>Athletes willing to commit to the full season</li>
+                <li>Students who can follow coaching direction</li>
+                <li>Those who attended a Salem Jump Rope clinic (preferred)</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h3>What We're Looking For</h3>
+              <ul>
+                <li>Coachability and attitude</li>
+                <li>Physical readiness and effort</li>
+                <li>Jump rope skill foundation</li>
+                <li>Teamwork and listening ability</li>
+                <li>Commitment and reliability</li>
+                <li>Character on and off the floor</li>
+              </ul>
+            </div>
+            <div class="info-block">
+              <h3>Team Commitment</h3>
+              <ul>
+                <li>Whole-team practice Tuesdays, 3:30 PM-5:30 PM</li>
+                <li>Split practice Thursdays, 6:15 PM-8:15 PM</li>
+                <li>Last Thursday of each month off, plus holidays</li>
+                <li>Attendance at all performances and events</li>
+                <li>Parent engagement expected</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2 class="text-center mt-lg">Skills to Master Before Tryouts</h2>
+          <p class="text-center mb-md">You do not need to be perfect, but you should be familiar with these fundamentals.</p>
+          <div class="skills-checklist" id="tryoutSkills">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="payment-placeholder">
+            <div class="payment-icon" aria-hidden="true">💳</div>
+            <h3>Payment Collection To Be Added</h3>
+            <p>Tryout registration fees and seasonal team fees will be collected through <strong>Square</strong> or another approved payment provider. Payment processing is not active on this website at this time. A team representative will provide payment details directly after the tryout process.</p>
+          </div>
+
+          <div class="form-section">
+            <h2>Tryout Interest Form</h2>
+            <p class="form-note">Submit this form to express your interest in trying out. A coach will follow up with specific tryout details and next steps.</p>
+            <form id="tryoutForm" class="skip-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="tr-parent">Parent / Guardian Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="tr-parent" name="parentName" required placeholder="Full Name" />
+                </div>
+                <div class="form-group">
+                  <label for="tr-student">Student Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="tr-student" name="studentName" required placeholder="Full Name" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="tr-age">Student Age <span aria-hidden="true">*</span></label>
+                  <input type="number" id="tr-age" name="age" required min="4" max="18" placeholder="Age" />
+                </div>
+                <div class="form-group">
+                  <label for="tr-grade">School Grade <span aria-hidden="true">*</span></label>
+                  <select id="tr-grade" name="grade" required>
+                    <option value="">Select Grade</option>
+                    <option>Pre-K / Kindergarten</option>
+                    <option>1st Grade</option>
+                    <option>2nd Grade</option>
+                    <option>3rd Grade</option>
+                    <option>4th Grade</option>
+                    <option>5th Grade</option>
+                    <option>6th Grade</option>
+                    <option>7th Grade</option>
+                    <option>8th Grade</option>
+                    <option>9th Grade</option>
+                    <option>10th Grade</option>
+                    <option>11th Grade</option>
+                    <option>12th Grade</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="tr-exp">Jump Rope Experience</label>
+                <select id="tr-exp" name="experience">
+                  <option value="">Select Level</option>
+                  <option>None, just starting out</option>
+                  <option>Beginner, knows basic bounce and a few tricks</option>
+                  <option>Intermediate, comfortable with multiple skills</option>
+                  <option>Advanced, competed or been on a team before</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="tr-why">Why do you want to join Salem Jump Rope? <span aria-hidden="true">*</span></label>
+                <textarea id="tr-why" name="why" rows="3" required placeholder="Tell us what motivates you to join our team..."></textarea>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="tr-email">Parent Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="tr-email" name="email" required placeholder="email@example.com" />
+                </div>
+                <div class="form-group">
+                  <label for="tr-phone">Parent Phone <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="tr-phone" name="phone" required placeholder="(555) 555-5555" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="tr-emergency">Emergency Contact Name &amp; Phone <span aria-hidden="true">*</span></label>
+                <input type="text" id="tr-emergency" name="emergency" required placeholder="Name and phone number" />
+              </div>
+              <div class="form-group checkbox-group">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="tr-consent" name="consent" required />
+                  <span>I am the parent or legal guardian of this student and give my consent for them to participate in the Salem Jump Rope tryout process. I understand that submitting this form does not guarantee a spot on the team. <span aria-hidden="true">*</span></span>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-gold">Submit Tryout Interest</button>
+              <div class="form-success" id="tryoutSuccess" aria-live="polite" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== LEARN ======================== -->
+    <section id="page-learn" class="page" aria-label="Learn">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Skill Development</p>
+          <h1>Learn Jump Rope</h1>
+          <p>Tutorials, workouts, and program resources for every level.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <!-- Sub-tabs -->
+          <div class="sub-tabs" role="tablist" aria-label="Learn sections">
+            <button class="sub-tab active" onclick="showLearnTab('tutorials')" id="tab-tutorials" role="tab" aria-selected="true" aria-controls="learn-tutorials">Skills &amp; Tutorials</button>
+            <button class="sub-tab" onclick="showLearnTab('workouts')" id="tab-workouts" role="tab" aria-selected="false" aria-controls="learn-workouts">Workouts</button>
+            <button class="sub-tab" onclick="showLearnTab('programs')" id="tab-programs" role="tab" aria-selected="false" aria-controls="learn-programs">Program Lists</button>
+          </div>
+
+          <!-- Tutorials -->
+          <div id="learn-tutorials" class="learn-panel active" role="tabpanel" aria-labelledby="tab-tutorials">
+            <p class="text-center mb-md">Video tutorials will be added as the team builds the lesson library. Explore the skill list below.</p>
+            <div class="tutorial-grid" id="tutorialGrid">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Workouts -->
+          <div id="learn-workouts" class="learn-panel" role="tabpanel" aria-labelledby="tab-workouts">
+            <p class="text-center mb-md">Structured workouts for every skill level. Print them out or save them to your phone.</p>
+            <div class="workout-grid" id="workoutGrid">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+
+          <!-- Programs -->
+          <div id="learn-programs" class="learn-panel" role="tabpanel" aria-labelledby="tab-programs">
+            <p class="text-center mb-md">Downloadable program resources will be added later. Check back for PDFs and printable guides.</p>
+            <div class="program-grid" id="programGrid">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== FITNESS ======================== -->
+    <section id="page-fitness" class="page" aria-label="Fitness">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Jump Rope for Life</p>
+          <h1>Fitness &amp; Conditioning</h1>
+          <p>Jump rope is one of the most effective, accessible, and fun fitness tools available to everyone.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+
+          <h2 class="text-center">Why Jump Rope?</h2>
+          <div class="benefit-grid">
+            <div class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">❤️</div>
+              <h3>Cardiovascular Health</h3>
+              <p>Jumping rope elevates heart rate quickly, improving cardiovascular endurance with less joint impact than running.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">⚡</div>
+              <h3>Agility &amp; Coordination</h3>
+              <p>Regular rope jumping builds foot speed, rhythm, balance, and full body coordination at every age.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">🔥</div>
+              <h3>Calorie Burn</h3>
+              <p>Jump rope can burn up to 10 to 16 calories per minute, which is more than many common cardio exercises.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">🧠</div>
+              <h3>Mental Focus</h3>
+              <p>The rhythm and timing of jump rope train concentration and mental discipline that carries into school and life.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">💰</div>
+              <h3>Affordable</h3>
+              <p>All you need is a rope. No gym membership, no equipment, no commute. Jump anywhere, anytime.</p>
+            </div>
+            <div class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">👨‍👩‍👧</div>
+              <h3>Family Friendly</h3>
+              <p>Jump rope is one of the few activities the whole family can do together, from toddlers to grandparents.</p>
+            </div>
+          </div>
+
+          <h2 class="text-center mt-lg">Sample Fitness Plans</h2>
+          <div class="fitness-card-grid" id="fitnessCards">
+            <!-- Populated by JS -->
+          </div>
+
+          <h2 class="text-center mt-lg">Fitness Programs We Offer</h2>
+          <div class="program-types">
+            <div class="program-type-card">
+              <h3>School &amp; Group Fitness</h3>
+              <p>We bring jump rope fitness programs to schools, after school programs, and youth groups. Contact us to schedule a session.</p>
+              <button class="btn btn-outline-dark" onclick="showPage('book')">Book a Fitness Session</button>
+            </div>
+            <div class="program-type-card">
+              <h3>Family Fitness</h3>
+              <p>Jump rope is a family sport. Our family fitness resources help parents and kids build a healthy routine together.</p>
+              <button class="btn btn-outline-dark" onclick="showPage('contact')">Get Resources</button>
+            </div>
+            <div class="program-type-card">
+              <h3>Team Conditioning</h3>
+              <p>Our team conditioning programs are designed to build endurance, strength, and athletic performance for competitive jumpers.</p>
+              <button class="btn btn-outline-dark" onclick="showPage('learn')">View Workouts</button>
+            </div>
+          </div>
+
+          <div class="cta-banner mt-lg">
+            <div class="text-center">
+              <h2>Ready to Jump?</h2>
+              <p>Whether you are a school, parent, or athlete, we have a fitness resource for you.</p>
+              <button class="btn btn-gold" onclick="showPage('contact')">Contact Us About Fitness</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== STORE ======================== -->
+    <section id="page-store" class="page" aria-label="Store">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Salem Jump Rope Gear</p>
+          <h1>Team Store</h1>
+          <p>Represent the team. Gear will be added later.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="store-merch-feature">
+            <div class="store-merch-copy">
+              <p class="eyebrow-label">New Team Look</p>
+              <h2>Black and Gold Gear Built for Movement</h2>
+              <p>The Salem Jump Rope shirt brings the team mark into practice, clinics, performances, and everyday community events.</p>
+              <button class="btn btn-gold" onclick="document.getElementById('productGrid').scrollIntoView({behavior:'smooth'})">View Gear</button>
+            </div>
+            <div class="store-merch-media">
+              <img src="Images/generated/jump-rope-shirt-athlete.png" alt="Athlete wearing Salem Jump Rope shirt while jumping rope" />
+            </div>
+          </div>
+
+          <div class="store-notice">
+            <div class="store-notice-icon" aria-hidden="true">🛒</div>
+            <h2>Online Store To Be Added</h2>
+            <p>Online ordering and payments will be handled through <strong>Square</strong> or another approved payment provider. Sign up below to be notified when the store goes live.</p>
+            <form id="storeNotifyForm" class="store-notify-form" novalidate>
+              <label for="sn-email" class="sr-only">Email address</label>
+              <input type="email" id="sn-email" placeholder="Enter your email for store updates" required />
+              <button type="submit" class="btn btn-gold">Notify Me</button>
+              <div class="form-success" id="storeSuccess" aria-live="polite" role="status"></div>
+            </form>
+          </div>
+
+          <div class="product-grid" id="productGrid">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== CONTACT ======================== -->
+    <section id="page-contact" class="page" aria-label="Contact">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Get in Touch</p>
+          <h1>Contact Salem Jump Rope</h1>
+          <p>We would love to hear from you. Parents, athletes, schools, and future partners can reach out here.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="contact-layout">
+            <div class="contact-info">
+              <h2>Reach Us</h2>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📧</span>
+                <div>
+                  <strong>Email</strong>
+                  <p>Email to be added after domain is secured</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📞</span>
+                <div>
+                  <strong>Phone</strong>
+                  <p>Phone number to be added</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">📍</span>
+                <div>
+                  <strong>Service Area</strong>
+                  <p>Salem and surrounding communities</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon" aria-hidden="true">🕐</span>
+                <div>
+                  <strong>Response Time</strong>
+                  <p>We typically respond within 48 hours</p>
+                </div>
+              </div>
+              <h3 class="mt-md">Follow Us</h3>
+              <div class="social-links">
+                <a href="#" class="social-link" aria-label="Facebook link">
+                  <span aria-hidden="true">f</span> Facebook
+                </a>
+                <a href="#" class="social-link" aria-label="Instagram link">
+                  <span aria-hidden="true">📷</span> Instagram
+                </a>
+                <a href="#" class="social-link" aria-label="YouTube link">
+                  <span aria-hidden="true">▶</span> YouTube
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-form-wrap">
+              <h2>Send a Message</h2>
+              <form id="contactForm" class="skip-form" novalidate>
+                <div class="form-group">
+                  <label for="ct-name">Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="ct-name" name="name" required placeholder="Your Full Name" />
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="ct-email">Email <span aria-hidden="true">*</span></label>
+                    <input type="email" id="ct-email" name="email" required placeholder="email@example.com" />
+                  </div>
+                  <div class="form-group">
+                    <label for="ct-phone">Phone</label>
+                    <input type="tel" id="ct-phone" name="phone" placeholder="(555) 555-5555" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="ct-reason">Reason for Contacting <span aria-hidden="true">*</span></label>
+                  <select id="ct-reason" name="reason" required>
+                    <option value="">Select a Reason</option>
+                    <option>Clinic Information</option>
+                    <option>Tryout Information</option>
+                    <option>Book a Performance</option>
+                    <option>Sponsorship</option>
+                    <option>General Question</option>
+                    <option>Media / Press</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="ct-message">Message <span aria-hidden="true">*</span></label>
+                  <textarea id="ct-message" name="message" rows="5" required placeholder="How can we help you?"></textarea>
+                </div>
+                <button type="submit" class="btn btn-gold">Send Message</button>
+                <div class="form-success" id="contactSuccess" aria-live="polite" role="status"></div>
+              </form>
+            </div>
+          </div>
+
+          <!-- FAQ -->
+          <div class="faq-section mt-lg">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="faq-list" id="faqList">
+              <!-- Populated by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== BOOK ======================== -->
+    <section id="page-book" class="page" aria-label="Book Us">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Performances &amp; Demos</p>
+          <h1>Book Salem Jump Rope</h1>
+          <p>Bring the energy, athleticism, and excitement of Salem Jump Rope to your next event.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+
+          <div class="two-col">
+            <div class="col-text">
+              <h2>What We Bring</h2>
+              <ul class="check-list">
+                <li>High energy jump rope performances</li>
+                <li>Skill demonstrations for all ages</li>
+                <li>Interactive audience participation segments</li>
+                <li>Educational fitness presentations</li>
+                <li>Motivational team messages</li>
+                <li>Professional athletes who represent Salem with pride</li>
+              </ul>
+              <h3 class="mt-md">Booking Process</h3>
+              <ol class="steps-list">
+                <li>Submit the performance request form below</li>
+                <li>A team representative will contact you within 5 business days</li>
+                <li>We'll confirm availability, event details, and logistics</li>
+                <li>A booking agreement will be provided</li>
+                <li>Show up and let us bring the energy</li>
+              </ol>
+              <p class="mt-sm"><em>📅 Availability varies by season. Submit early for best availability.</em></p>
+            </div>
+            <div class="col-image">
+              <div class="image-placeholder large" aria-label="Performance photo">
+                <div class="img-ph-inner">
+                  <span class="img-ph-icon" aria-hidden="true">📸</span>
+                  <p>Performance Photo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h2 class="text-center mt-lg">Events We Perform At</h2>
+          <div class="event-type-grid" id="eventTypes">
+            <!-- Populated by JS -->
+          </div>
+
+          <div class="form-section">
+            <h2>Performance Request Form</h2>
+            <p class="form-note">Fill out this form to begin the booking process. Submitting this form does not confirm your booking. A team representative will follow up to confirm details.</p>
+            <form id="bookForm" class="skip-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="bk-org">Organization Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="bk-org" name="org" required placeholder="School, Church, Organization" />
+                </div>
+                <div class="form-group">
+                  <label for="bk-contact">Contact Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="bk-contact" name="contact" required placeholder="Full Name" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="bk-email">Email <span aria-hidden="true">*</span></label>
+                  <input type="email" id="bk-email" name="email" required placeholder="email@example.com" />
+                </div>
+                <div class="form-group">
+                  <label for="bk-phone">Phone <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="bk-phone" name="phone" required placeholder="(555) 555-5555" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="bk-date">Event Date <span aria-hidden="true">*</span></label>
+                  <input type="date" id="bk-date" name="date" required />
+                </div>
+                <div class="form-group">
+                  <label for="bk-audience">Estimated Audience Size</label>
+                  <select id="bk-audience" name="audience">
+                    <option value="">Select Range</option>
+                    <option>Under 50</option>
+                  <option>50 to 100</option>
+                  <option>100 to 300</option>
+                  <option>300 to 500</option>
+                    <option>500+</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="bk-location">Event Location / Address <span aria-hidden="true">*</span></label>
+                <input type="text" id="bk-location" name="location" required placeholder="Venue name and address" />
+              </div>
+              <div class="form-group">
+                <label for="bk-type">Type of Event <span aria-hidden="true">*</span></label>
+                <select id="bk-type" name="eventType" required>
+                  <option value="">Select Event Type</option>
+                  <option>School Performance</option>
+                  <option>Church Event</option>
+                  <option>Community Event</option>
+                  <option>Halftime Show</option>
+                  <option>Camp or After School Program</option>
+                  <option>Fitness Demonstration</option>
+                  <option>Private Event</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="bk-message">Additional Details</label>
+                <textarea id="bk-message" name="message" rows="4" placeholder="Tell us more about your event, expected duration, special requests, etc."></textarea>
+              </div>
+              <button type="submit" class="btn btn-gold">Submit Booking Request</button>
+              <div class="form-success" id="bookSuccess" aria-live="polite" role="status"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== TEAM CONSTITUTION ======================== -->
+    <section id="page-constitution" class="page" aria-label="Team Constitution">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Team Standards</p>
+          <h1>Team Constitution</h1>
+          <p>This page is reserved for the official Salem Jump Rope constitution, bylaws, statements, and codes of conduct.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container narrow">
+          <div class="coming-soon-block">
+            <div class="cs-icon" aria-hidden="true">📄</div>
+            <h2>Official Document To Be Added</h2>
+            <p>David can provide the final Team Constitution PDF when it is ready. Once supplied, this page can include a readable embedded PDF, a download button, and highlighted sections for families to review before tryouts.</p>
+            <ul class="portal-list">
+              <li>Team constitution and bylaws</li>
+              <li>Statement affirming who Salem Jump Rope is</li>
+              <li>Parent and athlete codes of conduct</li>
+              <li>Tryout and season expectations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== WEBSITE UPDATES ======================== -->
+    <section id="page-updates" class="page" aria-label="Website Updates">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Owner Site Updates</p>
+          <h1>Website Updates</h1>
+          <p>The main update workflow is now the website admin screen. This page remains as a fallback for changes that need help.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container">
+          <div class="two-col">
+            <div class="col-text">
+              <h2>Primary Update Link</h2>
+              <ol class="steps-list">
+                <li>Open the website admin link.</li>
+                <li>Log in with the approved owner account.</li>
+                <li>Open Website Content.</li>
+                <li>Edit the needed section.</li>
+                <li>Save or publish the change.</li>
+              </ol>
+              <p class="form-note">After launch, the owner admin link will be your website address with <strong>/admin/</strong> at the end.</p>
+              <p class="form-note">The admin screen can update the homepage, clinics, tryouts, coaches, sponsors, store products, FAQs, contact info, and Square payment links.</p>
+            </div>
+            <div class="col-text owner-panel">
+              <h2>When To Use This Page</h2>
+              <ul class="check-list">
+                <li>A new page needs to be designed</li>
+                <li>The layout needs to change</li>
+                <li>A form or payment setup needs help</li>
+                <li>A file needs to be embedded in a custom way</li>
+                <li>Something looks wrong after publishing</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h2>Fallback Update Request</h2>
+            <form id="updateRequestForm" class="skip-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="up-page">Page or Section</label>
+                  <select id="up-page" name="page">
+                    <option>Home</option>
+                    <option>Clinic</option>
+                    <option>Tryout</option>
+                    <option>Coaches</option>
+                    <option>Captains</option>
+                    <option>Aces</option>
+                    <option>Sponsorship</option>
+                    <option>Team Constitution</option>
+                    <option>Store</option>
+                    <option>Contact</option>
+                    <option>Other or Several Pages</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="up-priority">Priority</label>
+                  <select id="up-priority" name="priority">
+                    <option>Normal</option>
+                    <option>Urgent</option>
+                    <option>Low priority</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="up-request">Requested Change</label>
+                <textarea id="up-request" rows="4" placeholder="Example: On the Clinic page, change the fall clinic date to..." required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="up-assets">Files to Add</label>
+                <textarea id="up-assets" rows="3" placeholder="Example: Use the new team photo named fall clinic 2026"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="up-approval">Approved By</label>
+                <input id="up-approval" type="text" placeholder="Name of owner, coach, or approver" />
+              </div>
+              <button type="button" class="btn btn-gold" id="generateUpdateRequest">Build Request</button>
+            </form>
+            <div class="generated-request-wrap">
+              <label for="generatedUpdateRequest">Request to Send</label>
+              <textarea id="generatedUpdateRequest" rows="8" readonly placeholder="The request will appear here."></textarea>
+              <button type="button" class="btn btn-outline-dark btn-sm" id="copyUpdateRequest">Copy Request</button>
+              <p class="form-note" id="copyUpdateStatus" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="page-portal" class="page" aria-label="Team Access">
+      <div class="page-hero-mini">
+        <div class="container">
+          <p class="eyebrow-label">Members Only</p>
+          <h1>Team Access</h1>
+          <p>This page is for team only items that should not be public.</p>
+        </div>
+      </div>
+      <div class="section-light">
+        <div class="container narrow text-center">
+          <div class="coming-soon-block">
+            <div class="cs-icon" aria-hidden="true">🔐</div>
+            <h2>Shared Team Login</h2>
+            <p>A shared team username and password can be used, but the password should be set through the website host. It should not be built into the public page files.</p>
+            <p>The simple plan is to protect this Team Access page after the site is hosted. The team can use one shared login, and the password can be changed each season.</p>
+            <ul class="portal-list">
+              <li>Practice schedules and session plans</li>
+              <li>Private skill and performance videos</li>
+              <li>Team announcements and updates</li>
+              <li>Internal forms and waivers</li>
+              <li>Team only skill resources and downloads</li>
+            </ul>
+            <p class="mt-md"><em>Best setup: one team username, one team password, and host level page protection. Do not post anything private until that protection is turned on.</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main-content -->
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-city-sm">SALEM</span>
+            <span class="logo-team-sm">Jump Rope</span>
+          </div>
+          <p>Building champions on the rope and leaders in life.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><button onclick="showPage('home')">Home</button></li>
+            <li><button onclick="showPage('clinic')">Clinics</button></li>
+            <li><button onclick="showPage('tryout')">Tryouts</button></li>
+            <li><button onclick="showPage('learn')">Learn</button></li>
+            <li><button onclick="showPage('fitness')">Fitness</button></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>About</h4>
+          <ul>
+            <li><button onclick="showPage('coaches')">Coaches</button></li>
+            <li><button onclick="showPage('captains')">Captains</button></li>
+            <li><button onclick="showPage('history')">History</button></li>
+            <li><button onclick="showPage('sponsorship')">Sponsorship</button></li>
+            <li><button onclick="showPage('mentorship')">Mentorship</button></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <h4>More</h4>
+          <ul>
+            <li><button onclick="showPage('book')">Book Us</button></li>
+            <li><button onclick="showPage('store')">Store</button></li>
+            <li><button onclick="showPage('contact')">Contact</button></li>
+            <li><button onclick="showPage('constitution')">Team Constitution</button></li>
+            <li><button onclick="showPage('portal')">Team Access</button></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📧 Email to be added after domain is secured</p>
+          <p>📞 Phone number to be added</p>
+          <p>📍 Salem &amp; Surrounding Area</p>
+          <button class="btn btn-gold btn-sm mt-sm" onclick="showPage('contact')">Get in Touch</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footerYear"></span> Salem Jump Rope. All rights reserved. | Youth Jump Rope Team</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chatbot-container" id="chatbotContainer" aria-label="FAQ Quick Help">
+    <button class="chatbot-trigger" id="chatbotTrigger" aria-label="Open FAQ help" aria-expanded="false" aria-controls="chatbotWindow">
+      <span class="chat-icon" aria-hidden="true">💬</span>
+      <span class="chat-label">FAQ</span>
+    </button>
+    <div class="chatbot-window" id="chatbotWindow" role="dialog" aria-labelledby="chatbotTitle" aria-modal="true" hidden>
+      <div class="chatbot-header">
+        <div>
+          <h3 id="chatbotTitle">Quick Help</h3>
+          <p>Quick answers to common questions</p>
+        </div>
+        <button class="chatbot-close" id="chatbotClose" aria-label="Close FAQ help">✕</button>
+      </div>
+      <div class="chatbot-messages" id="chatbotMessages" role="log" aria-live="polite" aria-label="Chat messages">
+        <div class="chat-msg bot">
+          <p>Hi! Choose a topic below or ask a question.</p>
+        </div>
+      </div>
+      <div class="chatbot-topics" id="chatbotTopics">
+        <!-- Populated by JS -->
+      </div>
+      <div class="chatbot-input-row">
+        <input type="text" id="chatbotInput" placeholder="Type a question..." aria-label="Type your question" />
+        <button id="chatbotSend" aria-label="Send message">→</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
