@@ -64,7 +64,7 @@
       "image": "Images/merch/salem-jump-rope-shirt-logo.jpg",
       "name": "Team Shirt",
       "desc": "Official Salem Jump Rope performance shirt. Black and gold.",
-      "price": "$25.00",
+      "price": "TBD",
       "paymentUrl": ""
     },
     {
@@ -72,7 +72,7 @@
       "image": "",
       "name": "Team Hoodie",
       "desc": "Heavyweight zip hoodie with embroidered Salem Jump Rope logo.",
-      "price": "$55.00",
+      "price": "TBD",
       "paymentUrl": ""
     },
     {
@@ -217,7 +217,7 @@
     "storeNoticeText": "Online ordering and payments will be handled through Square or another approved payment provider. Sign up below to be notified when the store goes live.",
     "springClinicDescription": "Seasonal skill-building clinic focused on fundamentals, confidence, teamwork, and performance preparation.",
     "heroTitleAccent": "PURPOSE.",
-    "facebookUrl": "",
+    "facebookUrl": "https://www.facebook.com/profile.php?id=61591503404603",
     "youtubeUrl": "",
     "contactPhone": "9198887063",
     "contactResponseTime": "We typically respond within 48 hours",
@@ -246,7 +246,7 @@
     {
       "icon": "📅",
       "name": "Clinic Practice Plan",
-      "desc": "4-day clinic schedule with coaching notes and drill breakdowns."
+      "desc": "Clinic coaching notes and drill breakdowns for skill-building sessions."
     },
     {
       "icon": "💪",
@@ -268,7 +268,7 @@
     {
       "name": "Future ACE Athlete ",
       "year": "To Be Added",
-      "category": "Achieves Hard Skills. Chooses Character. Example to others."
+      "category": "Achieves Hard Skills, Chooses Character, Example to Others"
     },
     {
       "name": "Future ACE Athlete",

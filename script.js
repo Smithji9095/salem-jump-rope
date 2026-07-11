@@ -37,7 +37,7 @@ let data = {
     contactPhone: 'Phone number to be added',
     contactServiceArea: 'Salem and surrounding communities',
     contactResponseTime: 'We typically respond within 48 hours',
-    facebookUrl: '',
+    facebookUrl: 'https://www.facebook.com/profile.php?id=61591503404603',
     instagramUrl: '',
     youtubeUrl: '',
     storeNoticeTitle: 'Online Store To Be Added',
@@ -90,7 +90,7 @@ let data = {
   captains: [],
 
   aces: [
-    { name: 'Future ACE Athlete', year: 'To Be Added', category: 'Achieving Christlike Excellence' },
+    { name: 'Future ACE Athlete', year: 'To Be Added', category: 'Achieves Hard Skills, Chooses Character, Example to Others' },
     { name: 'Future ACE Athlete', year: 'To Be Added', category: 'Skill Mastery' },
     { name: 'Future ACE Athlete', year: 'To Be Added', category: 'Mentorship & Service' },
     { name: 'Future ACE Athlete', year: 'To Be Added', category: 'Leadership & Character' }
@@ -276,7 +276,7 @@ let data = {
 
   programs: [
     { icon: '📋', name: 'Beginner Skill Checklist', desc: 'A printable checklist of all beginner skills with space to track progress.' },
-    { icon: '📅', name: 'Clinic Practice Plan', desc: '4-day clinic schedule with coaching notes and drill breakdowns.' },
+    { icon: '📅', name: 'Clinic Practice Plan', desc: 'Clinic coaching notes and drill breakdowns for skill-building sessions.' },
     { icon: '💪', name: 'Team Conditioning Plan', desc: 'Seasonal conditioning program used by the Salem Jump Rope team.' },
     { icon: '🎯', name: 'Tryout Prep List', desc: 'A step by step guide for athletes preparing for Salem Jump Rope tryouts.' },
     { icon: '🪢', name: 'Double Dutch Basics', desc: 'Visual guide to Double Dutch turning, entry, and basic combinations.' }
@@ -301,12 +301,12 @@ let data = {
   ],
 
   products: [
-    { icon: '👕', image: 'Images/merch/salem-jump-rope-shirt-logo.jpg', name: 'Team Shirt', desc: 'Official Salem Jump Rope performance shirt. Black and gold.', price: '$25.00' },
-    { icon: '🧥', name: 'Team Hoodie', desc: 'Heavyweight zip hoodie with embroidered Salem Jump Rope logo.', price: '$55.00' },
-    { icon: '🪢', name: 'Speed Jump Rope', desc: 'Lightweight speed rope used by our coaching staff and athletes.', price: '$18.00' },
-    { icon: '🗂️', name: 'Sticker Pack', desc: 'Set of 5 Salem Jump Rope vinyl stickers. Perfect for water bottles and gear.', price: '$8.00' },
-    { icon: '👕', name: 'Clinic Shirt', desc: 'Exclusive shirt given to clinic participants. Also available separately.', price: '$22.00' },
-    { icon: '💧', name: 'Water Bottle', desc: 'Insulated stainless steel bottle with Salem Jump Rope branding. 32oz.', price: '$28.00' }
+    { icon: '👕', image: 'Images/merch/salem-jump-rope-shirt-logo.jpg', name: 'Team Shirt', desc: 'Official Salem Jump Rope performance shirt. Black and gold.', price: 'TBD' },
+    { icon: '🧥', name: 'Team Hoodie', desc: 'Heavyweight zip hoodie with embroidered Salem Jump Rope logo.', price: 'TBD' },
+    { icon: '🪢', name: 'Speed Jump Rope', desc: 'Lightweight speed rope used by our coaching staff and athletes.', price: 'TBD' },
+    { icon: '🗂️', name: 'Sticker Pack', desc: 'Set of 5 Salem Jump Rope vinyl stickers. Perfect for water bottles and gear.', price: 'TBD' },
+    { icon: '👕', name: 'Clinic Shirt', desc: 'Exclusive shirt given to clinic participants. Also available separately.', price: 'TBD' },
+    { icon: '💧', name: 'Water Bottle', desc: 'Insulated stainless steel bottle with Salem Jump Rope branding. 32oz.', price: 'TBD' }
   ],
 
   faq: [
@@ -465,16 +465,23 @@ function applyCmsContent() {
   const socialLinks = [
     { selector: '#page-contact .social-link[aria-label="Facebook link"]', url: settings.facebookUrl },
     { selector: '#page-contact .social-link[aria-label="Instagram link"]', url: settings.instagramUrl },
-    { selector: '#page-contact .social-link[aria-label="YouTube link"]', url: settings.youtubeUrl }
+    { selector: '#page-contact .social-link[aria-label="YouTube link"]', url: settings.youtubeUrl },
+    { selector: '.site-footer a[aria-label="Facebook"]', url: settings.facebookUrl },
+    { selector: '.site-footer a[aria-label="Instagram"]', url: settings.instagramUrl },
+    { selector: '.site-footer a[aria-label="YouTube"]', url: settings.youtubeUrl }
   ];
   socialLinks.forEach(link => {
     const el = document.querySelector(link.selector);
     if (!el) return;
     if (link.url) {
       el.href = link.url;
+      el.target = '_blank';
+      el.rel = 'noopener';
       el.removeAttribute('aria-disabled');
     } else {
       el.href = '#';
+      el.removeAttribute('target');
+      el.removeAttribute('rel');
       el.setAttribute('aria-disabled', 'true');
     }
   });
